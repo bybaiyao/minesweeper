@@ -1,0 +1,122 @@
+* {
+    background: #f7f7f0;
+}
+
+.main {
+    margin: 20px auto;
+    height: 90%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.main .grade {
+    margin-bottom: 30px;
+}
+
+.main .grade button {
+    margin-left: 20px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 3px;
+    background-color: #771164;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+}
+
+.main .grade .active {
+    background-color: #d3b5e1;
+}
+
+/* .main .gamearea {
+    margin-top: 30px;
+    text-align: center;
+} */
+
+table {
+
+    background: #808080;
+    border-spacing: 2px;
+    margin: 0 auto;
+}
+
+td {
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    background: #c0c0c0;
+    border: 3px solid;
+    border-color: #fff #808080 #808080 #fff;
+    text-align: center;
+    line-height: 20x;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+td.zero {
+    border-color: #bebebe;
+    background: #bebebe;
+}
+
+td.one {
+    border-color: #bebebe;
+    background: #bebebe;
+    color: #0000ff;
+}
+
+td.two {
+    border-color: #bebebe;
+    background: #bebebe;
+    color: #088308;
+}
+
+td.three {
+    border-color: #bebebe;
+    background: #bebebe;
+    color: #fe0404;
+}
+
+td.four {
+    border-color: #bebebe;
+    background: #bebebe;
+    color: #000080;
+}
+
+td.five {
+    border-color: #bebebe;
+    background: #bebebe;
+    color: #800000;
+}
+
+td.six {
+    border-color: #bebebe;
+    background: #bebebe;
+    color: #008080;
+}
+
+td.seven {
+    border-color: #bebebe;
+    background: #bebebe;
+    color: #000000;
+}
+
+td.eight {
+    border-color: #bebebe;
+    background: #bebebe;
+    color: #808080;
+}
+
+.spare {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.mine {
+    background: #bebebe url('../images/mine.png') no-repeat center;
+    background-size: cover;
+}
+
+.flag {
+    background: #bebebe url('../images/flag.png') no-repeat center;
+    background-size: 75%;
+}
